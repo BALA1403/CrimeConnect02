@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "417430151527",
+    "project_id": "crimeconnectapp-db9ae",
+    "storage_bucket": "crimeconnectapp-db9ae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417430151527:android:433c93f7b11dce91648fc2",
+        "android_client_info": {
+          "package_name": "com.example.crimereportapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjywzhqGVhuxdME6KugSH0Z-q3_ebv0yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

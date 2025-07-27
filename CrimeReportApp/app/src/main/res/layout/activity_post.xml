@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textViewReportHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Report a Crime"
+            android:textAlignment="center"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:minHeight="50dp"
+            app:layout_constraintTop_toBottomOf="@id/textViewReportHeader" />
+
+        <Spinner
+            android:id="@+id/spinnerCrimeType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minHeight="50dp"
+            app:layout_constraintTop_toBottomOf="@id/editTextTitle" />
+
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:minHeight="60dp"
+            app:layout_constraintTop_toBottomOf="@id/spinnerCrimeType" />
+
+        <EditText
+            android:id="@+id/editTextLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Location"
+            android:inputType="text"
+            android:minHeight="50dp"
+            app:layout_constraintTop_toBottomOf="@id/editTextDescription" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Date (MM/dd/yyyy)"
+            android:inputType="date"
+            android:minHeight="50dp"
+            app:layout_constraintTop_toBottomOf="@id/editTextLocation" />
+
+        <EditText
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Time (HH:mm)"
+            android:inputType="time"
+            android:minHeight="50dp"
+            app:layout_constraintTop_toBottomOf="@id/editTextDate" />
+
+        <TextView
+            android:id="@+id/textViewEvidenceLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Upload Evidence (Optional)"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/editTextTime" />
+
+        <ImageButton
+            android:id="@+id/imageButtonEvidence"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="Upload evidence image"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_menu_camera"
+            app:layout_constraintTop_toBottomOf="@id/textViewEvidenceLabel" />
+
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/imageButtonEvidence">
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:text="Back" />
+
+            <Button
+                android:id="@+id/buttonSubmit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:text="Submit Report" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Home"
+            app:layout_constraintTop_toBottomOf="@id/buttonLayout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

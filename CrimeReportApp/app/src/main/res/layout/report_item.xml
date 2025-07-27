@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Report Title -->
+    <TextView
+        android:id="@+id/textViewReportTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Report Location -->
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="16sp" />
+
+    <!-- Report Date -->
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="16sp" />
+
+    <!-- Crime Type -->
+    <TextView
+        android:id="@+id/textViewCrimeType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crime Type"
+        android:textSize="16sp" />
+
+    <!-- Report Status -->
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="16sp" />
+
+    <!-- Evidence Image -->
+    <ImageView
+        android:id="@+id/imageViewEvidence"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Evidence Image" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#1B3B6F</color>          <!-- Deep Navy Blue -->
+    <color name="primaryDark">#102344</color>      <!-- Darker Navy -->
+    <color name="secondary">#D32F2F</color>        <!-- Alert Red -->
+    <color name="colorPrimary">@color/primary</color>
+    <color name="colorPrimaryDark">@color/primaryDark</color>
+    <color name="colorAccent">#FFB74D</color>      <!-- Warning Orange -->
+    <color name="forum_background">#36393F</color>
+    <color name="message_background">#40444B</color>
+    <!-- Background Colors -->
+    <color name="colorBackground">#FFFFFF</color>   <!-- Light Mode -->
+    <color name="colorBackgroundDark">#121212</color> <!-- Dark Mode -->
+
+    <!-- Surface Colors -->
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorSurfaceDark">#1E1E1E</color>
+
+    <!-- Text & Foreground Colors -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+
+    <!-- Additional Utility Colors -->
+    <color name="success">#4CAF50</color>          <!-- Green for success states -->
+    <color name="warning">#FFC107</color>          <!-- Amber for warnings -->
+    <color name="error">#D32F2F</color>            <!-- Red for errors -->
+    <color name="info">#2196F3</color>             <!-- Blue for information -->
+
+    <!-- Status Colors -->
+    <color name="pending">#FFA000</color>          <!-- Orange for pending reports -->
+    <color name="inProgress">#1976D2</color>       <!-- Blue for in-progress -->
+    <color name="resolved">#388E3C</color>         <!-- Green for resolved cases -->
+    <color name="urgent">#C62828</color>           <!-- Deep Red for urgent cases -->
+
+    <color name="white">#FFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="black">#0E0D0D</color>
+</resources>

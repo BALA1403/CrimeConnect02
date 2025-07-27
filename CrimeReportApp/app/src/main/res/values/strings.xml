@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crime Report App</string>
+    <string-array name="crime_types">
+        <item>Theft</item>
+        <item>Assault</item>
+        <item>Vandalism</item>
+        <item>Other</item>
+    </string-array>
+</resources>
