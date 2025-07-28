@@ -185,12 +185,19 @@ Regular Security Audits and vulnerability assessments
 
 
 ## Screenshots
+
 ![Login Screenshot](CrimeReportApp/screenshots/loginpage.png)
+
 ![ForgotPassword Screenshot](CrimeReportApp/screenshots/forgotpassword.png)
+
 ![Emergency Contacts Screenshot](CrimeReportApp/screenshots/emergencyContacts.png)
+
 ![SoS Screenshot](CrimeReportApp/screenshots/sos.png)
+
 ![CrimeReport1 Screenshot](CrimeReportApp/screenshots/crimereport1.png)
-![CrimeReport2 Screenshot](CrimeReportApp/screenshots/crimreport2.png)
+
+![CrimeReport2 Screenshot](CrimeReportApp/screenshots/crimereport2.png)
+
 ![Community Forum Screenshot](CrimeReportApp/screenshots/communityForum.png)
 
 
